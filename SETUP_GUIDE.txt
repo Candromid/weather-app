@@ -1,0 +1,38 @@
+WEATHER APP — ИНСТРУКЦИЯ ПО УСТАНОВКЕ И ЗАПУСКУ
+
+1. Убедитесь, что у вас установлен Python версии 3.10 или выше.
+   Проверить можно командой:
+   python --version
+
+2. Склонируйте репозиторий или скачайте проект:
+   git clone https://github.com/USERNAME/weather-app.git
+   cd weather-app
+
+3. Создайте виртуальное окружение:
+   python -m venv venv
+
+4. Активируйте виртуальное окружение:
+
+   Windows:
+   venv\Scripts\activate
+
+   macOS / Linux:
+   source venv/bin/activate
+
+5. Установите зависимости:
+   pip install -r requirements.txt
+
+6. Получите API-ключ:
+   Перейдите на сайт https://www.weatherapi.com/
+   Зарегистрируйтесь и скопируйте API Key.
+
+7. Создайте файл .env в корне проекта и добавьте в него:
+   WEATHER_API_KEY=your_api_key_here
+
+8. Запустите приложение:
+   python main.py
+
+9. Введите название города и получите текущую погоду.
+
+Примечание:
+Файл .env содержит секретный ключ и не должен публиковаться.
